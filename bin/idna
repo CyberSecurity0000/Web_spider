@@ -1,0 +1,8 @@
+#!/bin/sh
+'''exec' "/root/Documents/CyberSecurity/1. APT/3. RedTeam/01 - Scripting Pro/WebSpider/bin/python3" "$0" "$@"
+' '''
+import sys
+from idna.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())

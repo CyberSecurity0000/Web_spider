@@ -1,0 +1,5 @@
+# Exemplo 1: Passando apenas o domínio
+scrapy runspider spider_cli.py -a target=inlanefreight.com -o resultado.json
+
+# Exemplo 2: Mesmo se você digitar com https:// por hábito, o código trata
+scrapy runspider spider_cli.py -a target=https://inlanefreight.com -o resultado.json
